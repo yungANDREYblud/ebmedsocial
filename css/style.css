@@ -1,0 +1,51 @@
+:root {
+    --color_black: black;
+    --color_gray: #EEF1F7;
+    --color_yellow: #F9ED32;
+    --color_blue: #0066FF;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+header nav ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style-type: none;
+}
+header nav .button {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style-type: none;
+}
+header .button a:last-child{
+    width: 133px;
+    height: 50px;
+    background-color: var(--color_blue);
+    color: white;
+    margin: 15px;
+    border-radius: 5%;
+}
+header .button a:last-child{
+    width: 133px;
+    height: 50px;
+}
+
+section {
+    padding: 1% 10%;
+}
+header .logo{
+
+
+}
