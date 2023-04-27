@@ -10,10 +10,19 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 16px;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    color: inherit;
 }
 
-header section .logo span{
+
+
+header section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+header section .logo i{
     width: 60px;
     height: 60px;
     color: white;
@@ -23,17 +32,15 @@ header section .logo{
     font-weight: bold;
 }
 
-header section{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-}
-
 header nav ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     list-style-type: none;
 }
+header nav ul:hover{
+    color: #0066FF;
+}
+
 header nav .button {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -50,11 +57,82 @@ header .button a:last-child{
     width: 133px;
     height: 50px;
 }
-
 section {
     padding: 1% 10%;
 }
-header section .logo span:first-child{
+header section .logo i:first-child{
     padding: 5px 5px;
     border-radius: 10%;
 }
+
+
+
+
+
+
+
+main .display{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+main .display {
+    background-color: #F9FAFB;
+}
+main .display .lun{
+    padding: 10% 0;
+}
+main .display .lun h1{
+    font-size: 50px;
+}
+main .display .lun h1 span{
+    font-size: 50px;
+    background-color: #F9ED32;
+}
+main .display .lun p{
+    width: 65%;
+    padding-top: 25px;
+    font-size: 18px;
+}
+main .display .lun .send{
+    margin-top: 25px;
+}
+main .display .lun .send input, a{
+    padding: 10px 10px 10px 10px;
+    font-weight: 600;
+}
+main .display .lun .send{
+    background-color: #0066FF;
+    border-radius: 5px;
+    border: 3px solid #0066FF;
+}
+main .display .lun .send a{
+    color: white;
+}
+main .display .lun .send input{
+    border: none;
+}
+main .display .lun nav ul{
+    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    padding-top: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+main .display .lun nav ul li:first-child{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
