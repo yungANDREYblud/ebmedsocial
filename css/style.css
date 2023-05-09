@@ -37,7 +37,7 @@ header nav ul {
     grid-template-columns: repeat(4, 1fr);
     list-style-type: none;
 }
-header nav ul:hover{
+header nav ul li:hover{
     color: #0066FF;
 }
 
@@ -67,16 +67,11 @@ header section .logo i:first-child{
 
 
 
-
-
-
-
 main .display{
+    height: 850px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-main .display {
-    background-color: #F9FAFB;
+    grid-template-columns: 1fr 1fr;
+    background: linear-gradient(45deg, #FEFEFE, #F7F8FA, #FEFEFE, #FCFCFD);
 }
 main .display .lun{
     padding: 10% 0;
@@ -101,9 +96,9 @@ main .display .lun .send input, a{
     font-weight: 600;
 }
 main .display .lun .send{
-    background-color: #0066FF;
+    background-color: var(--color_blue);
     border-radius: 5px;
-    border: 3px solid #0066FF;
+    border: 3px solid var(--color_blue);
 }
 main .display .lun .send a{
     color: white;
@@ -123,6 +118,123 @@ main .display .lun nav ul{
 main .display .lun nav ul li:first-child{
     list-style-type: none;
 }
+main .display .logo img{
+    padding-left: 640px;
+}
+
+
+
+
+
+
+main .widget{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+main .widget .widget-content h3{
+    font-size: 58px;
+}
+main .widget .widget-content nav ul{
+    list-style-type: none;
+}
+main .widget .widget-content nav ul li{
+    padding-top: 40px;
+}
+
+
+
+main .society{
+    background-color: var(--color_gray);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+main .society h3{
+    font-size: 48px;
+    text-align: center;
+}
+main .society span{
+    font-size: 48px;
+    text-align: center;
+    background-color: #F9ED32;
+}
+
+
+main .society p{
+    padding-top: 20px;
+    text-align: center;
+}
+main .society .soc-content{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+}
+main .society .soc-content .soc{
+    cursor: pointer;
+    width: 230px;
+    height: 182px;
+    border-radius: 20px;
+    background-color: white;
+}
+main .society .soc-content .soc img{
+    padding: 40px 0px 0px 90px;
+}
+main .society .soc-content .soc h6{
+    padding-left: 78px;
+    padding-top: 6px;
+}
+main .clowin{
+    padding-top: 150px;
+}
+main .clowin h3{
+    font-size: 48px;
+    text-align: center;
+}
+main .clowin span{
+    font-size: 48px;
+    background-color: yellow;
+    text-align: center;
+}
+main .clowin .brands-content{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+main .clowin .brands-content .brands{
+    width: 420px;
+    height: 218px;
+    background-color: var(--color_gray);
+    border-radius: 20px;
+}
+main .clowin .brands-content .brands h6{
+    font-size: 32px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+main .clowin .brands-content .brands i{
+    padding-left: 20px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+main .clowin .brands-content .brands p{
+    padding-left: 20px;
+    padding-top: 40px;
+    width: 350px;
+}
+main .clowin .clowin-about{
+    padding-top: 150px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+main .clowin .clowin-about img{
+    padding-bottom: 20px;
+    padding-left: ;
+}
+
 
 
 
